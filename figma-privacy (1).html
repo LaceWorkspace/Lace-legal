@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lace - Privacy Policy</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+      }
+      h1 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: #34495e;
+        margin-top: 30px;
+      }
+      h3 {
+        color: #7f8c8d;
+      }
+      .header {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+      .section {
+        margin-bottom: 25px;
+      }
+      .contact {
+        background: #e8f5e8;
+        padding: 15px;
+        border-radius: 6px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Lace - Privacy Policy</h1>
+      <p>
+        <strong>Effective Date:</strong> February 2026<br />
+        <strong>Last Updated:</strong> February 2026
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>1. Overview</h2>
+      <p>
+        Lace ("we", "our", or "us") provides a version control and collaboration workflow for designers using Figma.
+        This policy explains how we access, process, and protect information when you use the Lace plugin.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>2. Information We Collect</h2>
+
+      <h3>2.1 Figma Data</h3>
+      <p>When you authorize Lace through Figma OAuth, we may access:</p>
+      <ul>
+        <li>
+          <strong>Frame and File Content:</strong> Design structure, text, layers, and component metadata used to create
+          version summaries.
+        </li>
+        <li>
+          <strong>File Metadata:</strong> File name, file key, and timestamps used to organize projects and versions.
+        </li>
+        <li>
+          <strong>Comments:</strong> Comments and replies from the file to display context and enable bi-directional
+          communication.
+        </li>
+        <li><strong>User Information:</strong> Your Figma display name and user ID to attribute activity correctly.</li>
+      </ul>
+
+      <h3>2.2 Authentication Data</h3>
+      <ul>
+        <li>Encrypted OAuth access tokens</li>
+        <li>Encrypted OAuth refresh tokens</li>
+        <li>Plugin session authentication tokens</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. How We Use Your Information</h2>
+      <p>We use collected information solely to:</p>
+      <ul>
+        <li>Generate and display version history for selected frames.</li>
+        <li>Create automated summaries of design changes.</li>
+        <li>Sync comments and replies between Lace and Figma.</li>
+        <li>Identify which user authored or updated a version.</li>
+        <li>Maintain an authenticated connection with Figma.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Data Storage and Security</h2>
+
+      <h3>4.1 Storage</h3>
+      <ul>
+        <li>Version metadata, activity logs, and summaries may be stored securely on Lace servers.</li>
+        <li>OAuth credentials are encrypted using industry-standard security practices.</li>
+        <li>We store only the minimum data necessary to operate the plugin.</li>
+      </ul>
+
+      <h3>4.2 Security Measures</h3>
+      <ul>
+        <li>All network communication is encrypted via HTTPS.</li>
+        <li>Access tokens are encrypted and never shared with other users.</li>
+        <li>Only authorized services can access stored data.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Data Sharing</h2>
+      <p>We do not:</p>
+      <ul>
+        <li>Sell or monetize user data.</li>
+        <li>Share design files, metadata, or comments with third parties.</li>
+        <li>Expose your Figma content outside Lace workspaces.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Data Retention</h2>
+      <ul>
+        <li>Stored versions and summaries remain available while your Lace account is active.</li>
+        <li>OAuth tokens are deleted immediately when you disconnect Lace from Figma.</li>
+        <li>You may request deletion of stored content at any time.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. Your Rights</h2>
+      <p>You may:</p>
+      <ul>
+        <li>Disconnect Lace from Figma at any time.</li>
+        <li>Request access to stored account-related data.</li>
+        <li>Request deletion of stored information.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>8. Scope of Figma Access</h2>
+      <p>Lace currently requests only the following Figma scopes:</p>
+      <ul>
+        <li><strong>current_user:read</strong></li>
+        <li><strong>file_comments:read</strong></li>
+        <li><strong>file_comments:write</strong></li>
+        <li><strong>file_content:read</strong></li>
+        <li><strong>file_metadata:read</strong></li>
+        <li><strong>file_versions:read</strong></li>
+      </ul>
+      <p>
+        We do not request enterprise design system scopes. If future features require additional permissions, we will
+        notify users before requesting them.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>9. AI Processing and Third-Party Sharing (OpenAI)</h2>
+      <p>
+        Lace uses OpenAI’s API to generate automated summaries, detect changes, and enhance version review features. To
+        provide these capabilities, Lace may send the following information from the selected Figma file to OpenAI:
+      </p>
+      <ul>
+        <li>Text content contained in design frames</li>
+        <li>Frame preview images and rendered design snapshots</li>
+        <li>Figma comments, replies, and discussion context</li>
+        <li>Layer names, structure, and component metadata</li>
+        <li>Version comparison results and change descriptions</li>
+      </ul>
+      <p>
+        Data shared with OpenAI is used solely to generate results requested by the user. Outputs may be stored as part
+        of version history within Lace. We do not allow OpenAI to use this data to train models. All processing is
+        governed by OpenAI’s API Terms and Privacy Policy.
+      </p>
+      <p>
+        Because AI processing is required for core functionality, Lace does not offer an opt-out from OpenAI processing
+        at this time.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>10. Reporting Security Concerns</h2>
+      <p>If you believe you have found a vulnerability, contact <strong>lizzie@inlace.co</strong>.</p>
+    </div>
+
+    <div class="section contact">
+      <h2>11. Contact</h2>
+      <p>For privacy or data requests, email:</p>
+      <ul>
+        <li><strong>lizzie@inlace.co</strong></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>12. Changes to This Policy</h2>
+      <p>If this policy changes, we will notify users before updates take effect.</p>
+      <hr style="margin: 30px 0" />
+      <p><em>By using Lace, you agree to this privacy policy.</em></p>
+    </div>
+  </body>
+</html>
